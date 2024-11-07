@@ -46,9 +46,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-
-
-
         recyclerView = findViewById(R.id.recyclerviewTask);
         fab = findViewById(R.id.fab);
 

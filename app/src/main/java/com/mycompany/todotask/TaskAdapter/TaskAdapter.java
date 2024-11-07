@@ -41,6 +41,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     @NonNull
     @Override
     public TaskViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        //The code inflates an XML layout (item_tasks) into a View object. It prepares the layout to be added to a parent view later.
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_tasks, parent, false);
         return new TaskViewHolder(view, deleteListener, updateListener);
     }
